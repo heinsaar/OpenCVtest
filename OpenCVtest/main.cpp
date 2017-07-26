@@ -83,7 +83,7 @@ void detectAndDisplay(Mat frame)
         for (const auto& eyesPair : eyesPairs)
         {
             drawEyesRegion(frame, face, eyesPair);
-        }
+        } 
     }
     imshow(window_name, frame);
 }
